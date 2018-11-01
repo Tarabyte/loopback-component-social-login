@@ -12,5 +12,17 @@
     "passport",
     "auth",
     "social-login"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "husky": "^1.1.2",
+    "lint-staged": "^8.0.4",
+    "prettier": "^1.14.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,json}\""
+  }
 }
