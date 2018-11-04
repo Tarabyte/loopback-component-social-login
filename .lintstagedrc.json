@@ -1,6 +1,6 @@
 {
   "linters": {
     "*.js": ["eslint"],
-    "*.{js,json}": ["yarn format", "git add"]
+    "*.{js,json,md}": ["yarn format", "git add"]
   }
 }
