@@ -24,8 +24,8 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.{js,json}\"",
-    "unformatted": "prettier --list-different \"**/*.{js,json}\"",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "unformatted": "prettier --list-different \"**/*.{js,json,md}\"",
     "test": "jest",
     "tdd": "jest --watch"
   }
