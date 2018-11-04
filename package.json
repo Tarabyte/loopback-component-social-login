@@ -2,7 +2,7 @@
   "name": "loopback-social-login-component",
   "description": "Loopback component implementing social login for API.",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/Tarabyte/loopback-social-login-component.git",
   "author": "Yury Tarabanko <tarabanko.yury@gmail.com>",
   "license": "MIT",
@@ -18,11 +18,15 @@
     "eslint-config-node": "^4.0.0",
     "eslint-config-prettier": "^3.1.0",
     "husky": "^1.1.2",
+    "jest": "^23.6.0",
     "lint-staged": "^8.0.4",
     "prettier": "^1.14.3"
   },
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.{js,json}\""
+    "format": "prettier --write \"**/*.{js,json}\"",
+    "unformatted": "prettier --list-different \"**/*.{js,json}\"",
+    "test": "jest",
+    "tdd": "jest --watch"
   }
 }
