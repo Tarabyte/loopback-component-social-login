@@ -20,13 +20,27 @@
     "husky": "^1.1.2",
     "jest": "^23.6.0",
     "lint-staged": "^8.0.4",
-    "prettier": "^1.14.3"
+    "loopback": "^3.23.2",
+    "passport": "^0.4.0",
+    "prettier": "^1.14.3",
+    "strong-globalize-cli": "^5.0.0"
   },
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.{js,json,md}\"",
-    "unformatted": "prettier --list-different \"**/*.{js,json,md}\"",
+    "prettier": "prettier \"**/*.{js,json,md}\"",
+    "format": "yarn prettier --write ",
+    "unformatted": "yarn prettier --list-different",
     "test": "jest",
-    "tdd": "jest --watch"
+    "tdd": "jest --watch",
+    "messages": "slt-globalize -e __tests__"
+  },
+  "peerDependencies": {
+    "loopback": "^3.23.2",
+    "passport": "^0.4.0",
+    "strong-globalize": "^4.1.2"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "invariant": "^2.2.4"
   }
 }

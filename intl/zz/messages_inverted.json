@@ -1,0 +1,11 @@
+{
+  "lib\\SocialLogin.js": {
+    "25": ["debug('Initializing Social Login Component')"],
+    "35": ["g.f('a5ccc442e084702fc8a318a63c9d3860')"],
+    "54": ["app.middleware('auth')"],
+    "57": [
+      "debug('Installing passport.initialize() middleware to run on session:after phase.')"
+    ],
+    "59": ["app.middleware('session:after')"]
+  }
+}
