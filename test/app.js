@@ -8,6 +8,7 @@ Model.attachTo = jest.fn();
 Model.belongsTo = jest.fn();
 Model.hasMany = jest.fn();
 Model.relations = {};
+Model.findById = jest.fn().mockResolvedValue({});
 
 module.exports = (overrides = {}) => ({
   middleware: jest.fn(),
