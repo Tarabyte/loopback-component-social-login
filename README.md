@@ -1,4 +1,4 @@
-# loopback-social-login-component
+# loopback-component-social-login
 
 Loopback component implementing social login for loopback API server
 

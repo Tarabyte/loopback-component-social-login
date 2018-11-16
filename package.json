@@ -1,5 +1,5 @@
 {
-  "name": "loopback-social-login-component",
+  "name": "loopback-component-social-login",
   "description": "Loopback component implementing social login for API.",
   "version": "0.0.0",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
     "/lib",
     "/intl"
   ],
-  "repository": "https://github.com/Tarabyte/loopback-social-login-component.git",
+  "repository": "https://github.com/Tarabyte/loopback-component-social-login.git",
   "author": "Yury Tarabanko <tarabanko.yury@gmail.com>",
   "license": "MIT",
   "keywords": [
