@@ -1,11 +1,58 @@
 {
+  "lib\\schemes\\utils\\allowEveryone.test.js": {
+    "3": ["describe('Allow everyone to execute method')"],
+    "4": ["it('should add settings.acls')"]
+  },
+  "lib\\schemes\\utils\\getUrl.js": {
+    "3": ["app.get('restApiRoot')"]
+  },
+  "lib\\schemes\\utils\\getUrl.test.js": {
+    "3": ["describe('getUrl')"],
+    "4": ["it('should join model url w/ restApiRoot')"],
+    "6": ["jest.mockReturnValue('/api/')"]
+  },
   "lib\\SocialLogin.js": {
-    "25": ["debug('Initializing Social Login Component')"],
-    "35": ["g.f('a5ccc442e084702fc8a318a63c9d3860')"],
-    "54": ["app.middleware('auth')"],
-    "57": [
+    "31": ["debug('Guessing scheme by options.')"],
+    "34": ["debug('Since options are undefined usin Local scheme.')"],
+    "39": [
+      "debug('Since options have \"consumerKey\" field using OAuth1 scheme.')"
+    ],
+    "44": [
+      "debug('Since options have \"clientID\" field using OAuth2.0 scheme.')"
+    ],
+    "49": [
+      "debug('Since options have \"usernameField\" field using Local scheme.')"
+    ],
+    "55": ["g.f('be03a070a7707bc48653c476c82e79bd')"],
+    "64": ["name.includes('login')"],
+    "68": ["name.includes('signup')"],
+    "73": ["name.includes('link')"],
+    "78": ["name.includes('connect')"],
+    "85": ["g.f('1d75c0efaef2a97c065fab5a9f6c29a3')"],
+    "100": ["debug('Initializing Social Login Component')"],
+    "113": ["g.f('a5ccc442e084702fc8a318a63c9d3860')"],
+    "132": ["app.middleware('auth')"],
+    "135": [
       "debug('Installing passport.initialize() middleware to run on session:after phase.')"
     ],
-    "59": ["app.middleware('session:after')"]
+    "137": ["app.middleware('session:after')"],
+    "140": ["debug('Enabling session support because session flag is on.')"],
+    "142": [
+      "debug('Warning! You need to manually add session parsing middleware to enable session.')"
+    ],
+    "143": ["debug('This component only configures passport.session().')"],
+    "146": ["app.middleware('session:after')"],
+    "190": ["debug('Creating Profile Model using config: ')"],
+    "198": ["debug('Defining User <--> Profile relations.')"],
+    "218": [
+      "debug('Skipping Profile Model creation since ProfileModelConfig was not specified. Assuming User already has profiles relation.')"
+    ]
+  },
+  "lib\\utils\\arity.js": {
+    "27": ["Function('fn')"]
+  },
+  "lib\\utils\\generatePassword.js": {
+    "4": ["createHmac('sha1')"],
+    "7": ["hmac.digest('hex')"]
   }
 }

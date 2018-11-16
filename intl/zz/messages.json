@@ -1,9 +1,60 @@
 {
-  "a5ccc442e084702fc8a318a63c9d3860": ["g.f:lib\\SocialLogin.js:35"],
-  "Initializing Social Login Component": ["debug:lib\\SocialLogin.js:25"],
-  "Installing passport.initialize() middleware to run on session:after phase.": [
-    "debug:lib\\SocialLogin.js:57"
+  "Allow everyone to execute method": [
+    "describe:lib\\schemes\\utils\\allowEveryone.test.js:3"
   ],
-  "auth": ["app.middleware:lib\\SocialLogin.js:54"],
-  "session:after": ["app.middleware:lib\\SocialLogin.js:59"]
+  "should add settings.acls": [
+    "it:lib\\schemes\\utils\\allowEveryone.test.js:4"
+  ],
+  "restApiRoot": ["app.get:lib\\schemes\\utils\\getUrl.js:3"],
+  "/api/": ["jest.mockReturnValue:lib\\schemes\\utils\\getUrl.test.js:6"],
+  "getUrl": ["describe:lib\\schemes\\utils\\getUrl.test.js:3"],
+  "should join model url w/ restApiRoot": [
+    "it:lib\\schemes\\utils\\getUrl.test.js:4"
+  ],
+  "1d75c0efaef2a97c065fab5a9f6c29a3": ["g.f:lib\\SocialLogin.js:85"],
+  "a5ccc442e084702fc8a318a63c9d3860": ["g.f:lib\\SocialLogin.js:113"],
+  "be03a070a7707bc48653c476c82e79bd": ["g.f:lib\\SocialLogin.js:55"],
+  "Creating Profile Model using config: ": ["debug:lib\\SocialLogin.js:190"],
+  "Defining User <--> Profile relations.": ["debug:lib\\SocialLogin.js:198"],
+  "Enabling session support because session flag is on.": [
+    "debug:lib\\SocialLogin.js:140"
+  ],
+  "Guessing scheme by options.": ["debug:lib\\SocialLogin.js:31"],
+  "Initializing Social Login Component": ["debug:lib\\SocialLogin.js:100"],
+  "Installing passport.initialize() middleware to run on session:after phase.": [
+    "debug:lib\\SocialLogin.js:135"
+  ],
+  "Since options are undefined usin Local scheme.": [
+    "debug:lib\\SocialLogin.js:34"
+  ],
+  "Since options have \"clientID\" field using OAuth2.0 scheme.": [
+    "debug:lib\\SocialLogin.js:44"
+  ],
+  "Since options have \"consumerKey\" field using OAuth1 scheme.": [
+    "debug:lib\\SocialLogin.js:39"
+  ],
+  "Since options have \"usernameField\" field using Local scheme.": [
+    "debug:lib\\SocialLogin.js:49"
+  ],
+  "Skipping Profile Model creation since ProfileModelConfig was not specified. Assuming User already has profiles relation.": [
+    "debug:lib\\SocialLogin.js:218"
+  ],
+  "This component only configures passport.session().": [
+    "debug:lib\\SocialLogin.js:143"
+  ],
+  "Warning! You need to manually add session parsing middleware to enable session.": [
+    "debug:lib\\SocialLogin.js:142"
+  ],
+  "auth": ["app.middleware:lib\\SocialLogin.js:132"],
+  "connect": ["name.includes:lib\\SocialLogin.js:78"],
+  "link": ["name.includes:lib\\SocialLogin.js:73"],
+  "login": ["name.includes:lib\\SocialLogin.js:64"],
+  "session:after": [
+    "app.middleware:lib\\SocialLogin.js:137",
+    "app.middleware:lib\\SocialLogin.js:146"
+  ],
+  "signup": ["name.includes:lib\\SocialLogin.js:68"],
+  "fn": ["Function:lib\\utils\\arity.js:27"],
+  "hex": ["hmac.digest:lib\\utils\\generatePassword.js:7"],
+  "sha1": ["createHmac:lib\\utils\\generatePassword.js:4"]
 }

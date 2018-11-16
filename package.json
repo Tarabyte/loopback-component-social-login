@@ -3,6 +3,10 @@
   "description": "Loopback component implementing social login for API.",
   "version": "0.0.0",
   "main": "lib/index.js",
+  "files": [
+    "/lib",
+    "/intl"
+  ],
   "repository": "https://github.com/Tarabyte/loopback-social-login-component.git",
   "author": "Yury Tarabanko <tarabanko.yury@gmail.com>",
   "license": "MIT",
@@ -23,6 +27,7 @@
     "loopback": "^3.23.2",
     "passport": "^0.4.0",
     "prettier": "^1.14.3",
+    "serve": "^10.1.1",
     "strong-globalize-cli": "^5.0.0"
   },
   "scripts": {
@@ -32,7 +37,8 @@
     "unformatted": "yarn prettier --list-different",
     "test": "jest",
     "tdd": "jest --watch",
-    "messages": "slt-globalize -e __tests__"
+    "messages": "slt-globalize -e __tests__",
+    "view-coverage": "serve --config serve.coverage.json"
   },
   "peerDependencies": {
     "loopback": "^3.23.2",

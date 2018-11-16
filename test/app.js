@@ -15,7 +15,8 @@ module.exports = (overrides = {}) => ({
   model: jest.fn(),
   registry: {
     findModel: jest.fn().mockReturnValue(Model),
-    createModel: jest.fn().mockReturnValue(Model)
+    createModel: jest.fn().mockReturnValue(Model),
+    ...overrides.registry
   },
   ...overrides
 });

@@ -1,3 +1,5 @@
 {
-  "a5ccc442e084702fc8a318a63c9d3860": "Application instance already has something called \"{0}\"."
+  "1d75c0efaef2a97c065fab5a9f6c29a3": "Can not infer mode (authenticate or authorize) for \"{0}\". Provide mode name via config.mode.",
+  "a5ccc442e084702fc8a318a63c9d3860": "Application instance already has something called \"{0}\".",
+  "be03a070a7707bc48653c476c82e79bd": "Can not infer scheme by options. Provide custom scheme name or implementation via config.scheme."
 }
